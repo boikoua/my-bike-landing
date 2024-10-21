@@ -1,5 +1,4 @@
 .contacts {
-
   &__content {
     @include grid-page;
   }
@@ -39,7 +38,7 @@
     transition: all 0.3s;
 
     &::placeholder {
-      color: #7E7E83;
+      color: #7e7e83;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -47,7 +46,7 @@
     }
 
     &:hover {
-      border: 1px solid #D5D7DE;
+      border: 1px solid #d5d7de;
     }
 
     &:-webkit-autofill {
@@ -58,12 +57,13 @@
     &:-webkit-autofill:hover,
     &:-webkit-autofill:focus,
     &:-webkit-autofill:active {
-        background-color: #c0c0c0 !important;
+      background-color: #c0c0c0 !important;
     }
   }
 
   &__message {
     margin-bottom: 32px;
+    height: 148px;
     padding: 14px 16px;
     border-radius: 16px;
     background: $color-input-bg;
@@ -79,7 +79,7 @@
     transition: all 0.3s;
 
     &::placeholder {
-      color: #7E7E83;
+      color: #7e7e83;
       font-family: $font-page;
       font-size: 14px;
       font-style: normal;
@@ -88,7 +88,7 @@
     }
 
     &:hover {
-      border: 1px solid #D5D7DE;
+      border: 1px solid #d5d7de;
     }
   }
 
