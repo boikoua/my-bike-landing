@@ -16,7 +16,6 @@
 
 * {
   box-sizing: border-box;
-  outline: none;
 }
 
 html {
@@ -24,7 +23,7 @@ html {
   scroll-behavior: smooth;
 
   &:has(.menu:target) {
-    overflow: hidden; /* not to scroll the page */
+    overflow: hidden;
   }
 }
 
@@ -36,6 +35,13 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
 }
 
 .container {
