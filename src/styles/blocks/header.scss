@@ -1,8 +1,18 @@
 .header {
-  background-image: url('./../img/img-bg.png');
+  background-image: url("./../img/img-bg.png");
   background-position: 85% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include on-tablet {
+    background-size: 120%;
+    background-position: 48%;
+  }
+
+  @include on-desktop {
+    background-position: 85% 50%;
+    background-size: cover;
+  }
 
   &__content {
     display: flex;

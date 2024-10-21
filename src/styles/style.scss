@@ -1,21 +1,22 @@
-@import './utils/variables';
-@import './utils/mixins';
-@import './blocks/header';
-@import './blocks/top-bar';
-@import './blocks/btn';
-@import './blocks/menu';
-@import './blocks/nav';
-@import './blocks/section-title';
-@import './blocks/main';
-@import './blocks/about-us';
-@import './blocks/cards';
-@import './blocks/details';
-@import './blocks/gallery';
-@import './blocks/contacts';
-@import './blocks/footer';
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./blocks/header";
+@import "./blocks/top-bar";
+@import "./blocks/btn";
+@import "./blocks/menu";
+@import "./blocks/nav";
+@import "./blocks/section-title";
+@import "./blocks/main";
+@import "./blocks/about-us";
+@import "./blocks/cards";
+@import "./blocks/details";
+@import "./blocks/gallery";
+@import "./blocks/contacts";
+@import "./blocks/footer";
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 html {
