@@ -16,7 +16,7 @@ Technologies that have been used
 - FIGMA
 
 > Link to the project
-> [DEMO LINK](https://boikoua.github.io/layout_landing-page/).
+> [DEMO LINK](https://boikoua.github.io/my-bike-landing/).
 
 > Link to website layout in Figma
 > [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
